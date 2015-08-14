@@ -1,3 +1,9 @@
+#  Editor Config
+.idea
+
+# SASS Map
+.map
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
