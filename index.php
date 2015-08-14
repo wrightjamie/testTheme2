@@ -48,8 +48,8 @@
     </article>
 </div>
 <div class="container">
-    <article id="homeLearnMore">
-        <section class="learnMoreItem"><img src="http://placehold.it/400x300" alt="">
+    <article class="LearnMore">
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
 
             <h3>Lorem ipsum dolor sit amet.</h3>
 
@@ -57,7 +57,7 @@
                 laudantium minima nam nisi omnis quibusdam quis, quod repellendus reprehenderit sit tempora vero. Beatae
                 ipsam quae rerum.</p>
         </section>
-        <section class="learnMoreItem"><img src="http://placehold.it/400x300" alt="">
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
 
             <h3>Commodi nam omnis placeat recusandae?</h3>
 
@@ -65,7 +65,7 @@
                 laborum natus quos repudiandae! Aut ducimus impedit laboriosam, necessitatibus nihil quo ratione
                 reiciendis reprehenderit tempore vitae.</p>
         </section>
-        <section class="learnMoreItem"><img src="http://placehold.it/400x300" alt="">
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
 
             <h3>Consequuntur corporis perferendis ullam voluptatum?</h3>
 

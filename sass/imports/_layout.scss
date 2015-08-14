@@ -1,23 +1,39 @@
 @include jw_border_box();
 
+/* Changing Susy default global settings */
+$susy: (
+  /* Tells Susy to use 12 columns */
+        columns: 12,
+  /* Tells Susy that the container has a max-width of 1120px */
+        container: 1200px,
+  /* Tells Susy to use border-box */
+        global-box-sizing: border-box,
+        debug: (
+                image: show,
+                color: rgba(#66f, .25),
+                output: overlay,
+                toggle: bottom right,
+        ),
+);
+
+img{
+  max-width: 100%;
+}
+
 
 .container{
-  background-color: red;
+  background-color: red; //For Debug
   &:nth-of-type(2n){
-    background-color: darkred;
+    background-color: darkred; //For Debug
   }
 
   &>* {
-    margin: 0 auto;
-    max-width: 1200px;
+    @include container;
 
-    @include add-grid(3);
-    @include add-grid(6 at bp(2));
-    @include add-grid(9 at bp(3));
-    @include add-grid(12 at bp(4));
-    @include add-grid(15 at bp(5));
 
-    @include background-grid($color: blue);
   }
 }
 
+.LearnMore .item{
+
+}
