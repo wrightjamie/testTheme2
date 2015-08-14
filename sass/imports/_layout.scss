@@ -1,24 +1,23 @@
 @include jw_border_box();
 
 
-#container{
-  margin: 0 auto;
-  max-width: 1200px;
-
-  @include add-grid(3);
-  @include add-grid(6  at bp(2));
-  @include add-grid(9  at bp(3));
-  @include add-grid(12 at bp(4));
-  @include add-grid(15 at bp(5));
-
-  @include background-grid($color: blue);
-
-  .learnMoreItem{
-    @include float-span(3);
-    &:nth-child(3){
-      @include float-span(3, 'last');
-    }
+.container{
+  background-color: red;
+  &:nth-of-type(2n){
+    background-color: darkred;
   }
 
+  &>* {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    @include add-grid(3);
+    @include add-grid(6 at bp(2));
+    @include add-grid(9 at bp(3));
+    @include add-grid(12 at bp(4));
+    @include add-grid(15 at bp(5));
+
+    @include background-grid($color: blue);
+  }
 }
 

@@ -2,7 +2,7 @@
 .idea
 
 # SASS Map
-.map
+*.css.map
 
 # Windows image file caches
 Thumbs.db

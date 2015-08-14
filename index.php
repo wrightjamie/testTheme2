@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="nojs">
+<html <?php language_attributes(); ?> class="nojs" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <title><?php wp_title(); ?></title>
@@ -19,7 +19,7 @@
  * Time for the website content
  */
 ?>
-<div id="container">
+<div class="container">
     <header id="banner">
         <h1>2459 Squadron</h1>
         <p>Poulton-le-Fylde</p>
@@ -33,6 +33,8 @@
             </ul>
         </nav>
     </header>
+</div>
+<div class="container">
     <article id="homeMain">
         <img src="http://placehold.it/1200x400" alt="">
 
@@ -44,6 +46,8 @@
                 laborum maxime, minus nam nihil officia placeat quam quasi quidem sed sunt veritatis vitae voluptas.</p>
         </div>
     </article>
+</div>
+<div class="container">
     <article id="homeLearnMore">
         <section class="learnMoreItem"><img src="http://placehold.it/400x300" alt="">
 
@@ -70,6 +74,8 @@
                 non obcaecati, possimus sapiente similique sit temporibus.</p>
         </section>
     </article>
+</div>
+<div class="container">
     <footer id="siteFooter">
         <nav>
             <ul>
