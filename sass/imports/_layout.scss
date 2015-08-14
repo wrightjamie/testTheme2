@@ -29,11 +29,19 @@ img{
 
   &>* {
     @include container;
-
-
   }
 }
 
 .LearnMore .item{
+  @include span(3);
+  &:nth-of-type(4n){
+    @include span(3 last);
+  }
+}
 
+.Recent .item{
+  @include span(4);
+  &:nth-of-type(3n){
+    @include span(4 last);
+  }
 }

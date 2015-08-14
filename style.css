@@ -140,6 +140,28 @@ head:hover ~ .container > *:before, head:hover ~ body .container > *:before {
   background-position: left top;
 }
 
+.LearnMore .item {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+}
+.LearnMore .item:nth-of-type(4n) {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+}
+
+.Recent .item {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+}
+.Recent .item:nth-of-type(3n) {
+  width: 32.20339%;
+  float: right;
+  margin-right: 0;
+}
+
 #banner ul {
   margin: 0;
   padding: 0;

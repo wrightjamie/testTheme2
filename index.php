@@ -23,17 +23,9 @@
     <header id="banner">
         <h1>2459 Squadron</h1>
         <p>Poulton-le-Fylde</p>
-        <nav>
-            <ul id="main_nav">
-                <li>Lorem ipsum.</li>
-                <li>Qui, reiciendis.</li>
-                <li>Mollitia, veritatis.</li>
-                <li>Modi, quam.</li>
-                <li>Fuga, quae.</li>
-            </ul>
-        </nav>
     </header>
 </div>
+
 <div class="container">
     <article id="homeMain">
         <img src="http://placehold.it/1200x400" alt="">
@@ -44,8 +36,22 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi consequatur cupiditate eveniet
                 fuga illo
                 laborum maxime, minus nam nihil officia placeat quam quasi quidem sed sunt veritatis vitae voluptas.</p>
+            <a class="Call" href="#">Join Us</a>
+            <a class="Call" href="#LearnMore">Learn More</a>
+            <a class="Call" href="#Recent">Recent News</a>
         </div>
     </article>
+</div>
+<div class="container">
+    <nav>
+        <ul id="main_nav">
+            <li>Lorem ipsum.</li>
+            <li>Qui, reiciendis.</li>
+            <li>Mollitia, veritatis.</li>
+            <li>Modi, quam.</li>
+            <li>Fuga, quae.</li>
+        </ul>
+    </nav>
 </div>
 <div class="container">
     <article class="LearnMore">
@@ -72,6 +78,42 @@
             <p>Accusamus adipisci architecto commodi consequatur debitis numquam repudiandae. Blanditiis dolorum fugit
                 nulla repellat vero. Accusantium adipisci consequatur dolorem eligendi, enim esse incidunt, laudantium
                 non obcaecati, possimus sapiente similique sit temporibus.</p>
+        </section>
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
+
+            <h3>Consequuntur corporis perferendis ullam voluptatum?</h3>
+
+            <p>Accusamus adipisci architecto commodi consequatur debitis numquam repudiandae. Blanditiis dolorum fugit
+                nulla repellat vero. Accusantium adipisci consequatur dolorem eligendi, enim esse incidunt, laudantium
+                non obcaecati, possimus sapiente similique sit temporibus.</p>
+        </section>
+    </article>
+</div>
+<div class="container">
+    <article id="Recent" class="Recent">
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
+
+            <h3>Commodi labore minus necessitatibus perferendis praesentium totam.</h3>
+
+            <p>Accusamus asperiores, atque beatae debitis deleniti distinctio dolor dolore doloremque eveniet fugiat
+                fugit laborum laudantium minus modi nesciunt praesentium quae quam quia repellat sed sequi veritatis
+                voluptates. Iusto, voluptate, voluptates.</p>
+        </section>
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
+
+            <h3>Ad, ducimus facilis inventore officiis quidem sapiente!</h3>
+
+            <p>Blanditiis cumque, debitis distinctio dolor doloremque doloribus facilis ipsam iste odio? Ad at culpa
+                cupiditate, dolores dolorum et eum facilis fugit nulla odio quae quaerat quod, totam velit voluptas
+                voluptatibus.</p>
+        </section>
+        <section class="item"><img src="http://placehold.it/400x300" alt="">
+
+            <h3>Amet aspernatur consequatur magnam quo! Ipsam, odit?</h3>
+
+            <p>Atque cum distinctio eos esse est exercitationem facere fuga, fugiat harum illum laudantium maiores
+                maxime obcaecati odit optio placeat quae quaerat quas, qui sed, ut veniam voluptatum! Asperiores, id,
+                sint.</p>
         </section>
     </article>
 </div>
