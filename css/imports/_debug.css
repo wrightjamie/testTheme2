@@ -1,0 +1,7 @@
+.holder {
+  background-color: red;
+}
+
+.holder:nth-of-type(2n) {
+  background-color: darkred;
+}

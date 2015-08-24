@@ -1,23 +1,105 @@
 @include jw_border_box();
 
+/* Changing Susy default global settings */
+$susy: (
+  /* Tells Susy to use 8 columns */
+        columns: 3,
+  /* Tells Susy that the container has a max-width */
+        container: 1200px,
+  /* Tells Susy to use border-box */
+        global-box-sizing: border-box,
+        debug: (
+                image: show,
+                color: rgba(#66f, .25),
+                //output: overlay,
+                //toggle: bottom right,
+        ),
+);
 
+img{
+  max-width: 100%;
+}
+
+/* Container set up */
 .container{
-  background-color: red;
-  &:nth-of-type(2n){
-    background-color: darkred;
+  @include container();
+  @include at('s') {@include container(6);}
+  @include at('m') {@include container(8);}
+  @include at('l') {@include container(12);}
+}
+
+.LearnMore .item{ //4 items
+
+  @include at('s') {
+    @include gallery(3 of 6);
   }
 
-  &>* {
-    margin: 0 auto;
-    max-width: 1200px;
-
-    @include add-grid(3);
-    @include add-grid(6 at bp(2));
-    @include add-grid(9 at bp(3));
-    @include add-grid(12 at bp(4));
-    @include add-grid(15 at bp(5));
-
-    @include background-grid($color: blue);
+  @include at('m') {
+    @include gallery( 4 of 8);
   }
+
+  @include at('l') {
+    @include gallery(3 of 12);
+  }
+}
+
+.Recent .item{ //3 items
+  @include at('s') {
+    @include gallery(2 of 6);
+  }
+
+  @include at('m') {
+    &:nth-of-type(3n+1){@include span( 2 of 8 at 1)};
+    &:nth-of-type(3n+2){@include span( 4 of 8 at 3)};
+    &:nth-of-type(3n+3){@include span( 2 of 8 at 7)};
+  }
+
+  @include at('l') {
+    @include gallery(4 of 12);
+  }
+}
+
+.content-sidebar{
+  .archive, .article{
+    @include at('m') {@include span(6 of 8 at 1);}
+    @include at('l') {@include span(9 of 12 at 1);}
+  };
+  .sidebar{
+    @include at('m') {@include span(2 of 8 at 7);}
+    @include at('l') {@include span(3 of 12 at 10);}
+  }
+}
+
+.sidebar-content{
+  .archive, .article{
+    @include span(6 at 3 last);
+    @include at('m') {@include span(6 of 8 at 3);}
+    @include at('l') {@include span(9 of 12 at 4);}
+  }
+  .sidebar{
+    @include at('m') {@include span(2 of 8 at 1);}
+    @include at('l') {@include span(3 of 12 at 1);}
+  }
+}
+
+.archive .item { //12 items
+  .content-only &{
+    @include at('s') {
+      @include gallery(3 of 6);
+    }
+    @include at('m') {
+      @include gallery(4 of 8);
+    }
+    @include at('l') {
+      @include gallery(3 of 12);
+    }
+  }
+  [class*='sidebar'] &{
+    @include gallery( 2 of 6);
+    @include at('s'){ @include gallery(3 of 6);}
+    @include at('m'){ @include gallery(3 of 6);}
+    @include at('l'){ @include gallery(3 of 9);}
+  }
+
 }
 

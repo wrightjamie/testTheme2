@@ -1,9 +1,10 @@
 @import 'imports/wordpressHeader';
 @import 'compass';
 @import 'imports/helpers';
+@import "imports/debug";
 
 //Load vendor SASS
-@import "vendor/singularitygs";
+@import "vendor/susy";
 @import "vendor/breakpoint-slicer";
 
 //Variables
