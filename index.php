@@ -30,7 +30,7 @@
 
 <div class="holder">
     <article id="homeMain" class="container">
-        <img src="http://placehold.it/1200x600" alt="">
+<!--        <img src="http://placehold.it/1200x600" alt="">-->
 
         <div>
             <h2>Lorem ipsum dolor sit.</h2>

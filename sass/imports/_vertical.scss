@@ -1,0 +1,16 @@
+@include establish-baseline;
+
+html {
+  @include adjust-leading-to(4);
+}
+
+body{
+  @include baseline-grid-background(rhythm(4));
+}
+.holder{
+  @include padding-trailing(2);
+}
+.item{
+  @include rhythm-borders(1px, 1);
+  @include margin-leader(2);
+}

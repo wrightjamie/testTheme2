@@ -1,6 +1,6 @@
 .holder {
-  background-color: red; //For Debug
+  background-color: rgba(red, 0.5); //For Debug
   &:nth-of-type(2n) {
-    background-color: darkred; //For Debug
+    background-color: rgba(darkred, 0.5); //For Debug
   }
 }
