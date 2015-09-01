@@ -10,10 +10,14 @@
 //Variables
 @import 'variables/breakpoints';
 @import 'variables/colours';
+@import 'variables/vertical';
 
 //Reset the CSS
 @import 'compass/reset';
 
-
+//Overall
 @import 'imports/layout';
+@import 'imports/vertical';
+
+//Specific elements
 @import 'imports/nav';

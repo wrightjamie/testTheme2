@@ -23,14 +23,14 @@
 ?>
 <div class="holder">
     <header id="banner" class="container">
-        <h1>2459 Squadron</h1>
-        <p>Poulton-le-Fylde</p>
+        <h1 class="banner_header">2459 Squadron</h1>
+        <p class="banner_sub">Poulton-le-Fylde</p>
     </header>
 </div>
 
 <div class="holder">
     <article id="homeMain" class="container">
-        <img src="http://placehold.it/1200x600" alt="">
+<!--        <img src="http://placehold.it/1200x600" alt="">-->
 
         <div>
             <h2>Lorem ipsum dolor sit.</h2>
@@ -56,25 +56,11 @@
     </nav>
 </div>
 <div class="holder">
-    <header class="container item">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid consectetur cupiditate debitis
-            distinctio earum eos et hic id ipsa nulla obcaecati officia quae quibusdam quo, sequi similique suscipit
-            vero.</p>
-    </header>
     <article class="LearnMore container">
         <?php createContent(array('repeat'=>4, 'p length'=>1)); ?>
     </article>
 </div>
 <div class="holder">
-    <header class="container item">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid consectetur cupiditate debitis
-            distinctio earum eos et hic id ipsa nulla obcaecati officia quae quibusdam quo, sequi similique suscipit
-            vero.</p>
-    </header>
     <article id="Recent" class="Recent container">
         <?php createContent(array('repeat'=>3, 'p length'=>1)); ?>
     </article>

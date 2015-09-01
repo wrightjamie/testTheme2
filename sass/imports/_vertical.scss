@@ -1,0 +1,32 @@
+@include establish-baseline;
+
+html {
+  @include adjust-leading-to(4);
+}
+
+body{
+  @include baseline-grid-background(rhythm(4));
+}
+.holder{
+  @include padding-trailer(2);
+}
+.item{
+  @include rhythm-borders(1px, 1);
+  @include margin-leader(2);
+}
+
+.banner_header{
+  @include adjust-font-size-to(36px, 8);
+}
+.banner_sub{
+  @include adjust-font-size-to(36px, 8);
+}
+.item_header1{
+  @include adjust-font-size-to(36px, 8);
+}
+.item_header2{
+  @include adjust-font-size-to(36px, 8);
+}
+.item_header3{
+  @include adjust-font-size-to(36px, 8);
+}

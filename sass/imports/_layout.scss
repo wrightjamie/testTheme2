@@ -8,12 +8,12 @@ $susy: (
         container: 1200px,
   /* Tells Susy to use border-box */
         global-box-sizing: border-box,
-        debug: (
+  /*      debug: (
                 image: show,
                 color: rgba(#66f, .25),
                 //output: overlay,
                 //toggle: bottom right,
-        ),
+        ),*/
 );
 
 img{
