@@ -25,7 +25,7 @@ function createContent($args = array())
 
     for($x = 1; $x <= $args['repeat']; $x++) {
         $headerText = $lorem->words(checkNumber($args['h length']));
-        $header = $args['h'] ? sprintf("<h%1\$u>%2\$s</h%1\$u>", $args['h level'], $headerText) : "";
+        $header = $args['h'] ? sprintf("<header><h%1\$u class='item_heading'>%2\$s</h%1\$u></header>", $args['h level'], $headerText) : "";
 
         $img = $args['img'] ? sprintf("<img src='http://placehold.it/%dx%d'>", $args['width'], $args['height']) : "";
 
@@ -37,8 +37,9 @@ function createContent($args = array())
         $id = (!is_null($args['id']) ? " id='" . $args['id'] . "'" : "");
         $class = (!is_null($args['class']) ? " class='" . $args['class'] . "'" : "");
         $element = $args['element'];
+        $footer = "<footer>A footer</footer>";
 
-        $output .= "<" . $element . $id . $class . ">" . ($args['img top'] ? $img . $header : $header . $img) . $content . "</" . $element . ">";
+        $output .= "<" . $element . $id . $class . ">" . ($args['img top'] ? $img . $header : $header . $img) . $content . $footer. "</" . $element . ">";
     }
     echo $output;
 }

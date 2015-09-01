@@ -1,84 +1,567 @@
 /*
-Error: Undefined mixin 'padding-trailing'.
-        on line 11 of imports/_vertical.scss, in `padding-trailing'
-        from line 11 of imports/_vertical.scss
-        from line 20 of style.scss
-
-6: //Load vendor SASS
-7: @import "vendor/susy";
-8: @import "vendor/breakpoint-slicer";
-9: 
-10: //Variables
-11: @import 'variables/breakpoints';
-12: @import 'variables/colours';
-13: @import 'variables/vertical';
-14: 
-15: //Reset the CSS
-16: @import 'compass/reset';
-
-Backtrace:
-imports/_vertical.scss:11:in `padding-trailing'
-imports/_vertical.scss:11
-style.scss:20
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Prepros/resources/app/ruby/loader.rb:15:in `load'
-C:/Program Files (x86)/Prepros/resources/app/ruby/loader.rb:15:in `<main>'
+Theme Name: Theme Test 2
+Theme URI: http://underscores.me/
+Author: Jamie Wright
+Author URI: http://www.myURL.co.uk
+Description: A test theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: themetest
+Tags:
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'padding-trailing'.\A         on line 11 of imports/_vertical.scss, in `padding-trailing'\A         from line 11 of imports/_vertical.scss\A         from line 20 of style.scss\A \A 6: //Load vendor SASS\A 7: @import \"vendor/susy\";\A 8: @import \"vendor/breakpoint-slicer\";\A 9: \A 10: //Variables\A 11: @import 'variables/breakpoints';\A 12: @import 'variables/colours';\A 13: @import 'variables/vertical';\A 14: \A 15: //Reset the CSS\A 16: @import 'compass/reset';"; }
+.holder {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.holder:nth-of-type(2n) {
+  background-color: rgba(139, 0, 0, 0.5);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Changing Susy default global settings */
+img {
+  max-width: 100%;
+}
+
+/* Container set up */
+.container {
+  max-width: 1200px;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 401px) and (max-width: 800px) {
+  .container {
+    max-width: 1200px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .container {
+    max-width: 1200px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 1051px) {
+  .container {
+    max-width: 1200px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  .LearnMore .item {
+    width: 48.27586%;
+    float: left;
+  }
+  .LearnMore .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .LearnMore .item:nth-child(2n + 2) {
+    margin-left: 51.72414%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .LearnMore .item {
+    width: 48.71795%;
+    float: left;
+  }
+  .LearnMore .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .LearnMore .item:nth-child(2n + 2) {
+    margin-left: 51.28205%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 1051px) {
+  .LearnMore .item {
+    width: 23.72881%;
+    float: left;
+  }
+  .LearnMore .item:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .LearnMore .item:nth-child(4n + 2) {
+    margin-left: 25.42373%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .LearnMore .item:nth-child(4n + 3) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .LearnMore .item:nth-child(4n + 4) {
+    margin-left: 76.27119%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  .Recent .item {
+    width: 31.03448%;
+    float: left;
+  }
+  .Recent .item:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .Recent .item:nth-child(3n + 2) {
+    margin-left: 34.48276%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .Recent .item:nth-child(3n + 3) {
+    margin-left: 68.96552%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .Recent .item:nth-of-type(3n+1) {
+    width: 23.07692%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+  .Recent .item:nth-of-type(3n+2) {
+    width: 48.71795%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+  .Recent .item:nth-of-type(3n+3) {
+    width: 23.07692%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1051px) {
+  .Recent .item {
+    width: 32.20339%;
+    float: left;
+  }
+  .Recent .item:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .Recent .item:nth-child(3n + 2) {
+    margin-left: 33.89831%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .Recent .item:nth-child(3n + 3) {
+    margin-left: 67.79661%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1050px) {
+  .content-sidebar .archive, .content-sidebar .article {
+    width: 74.35897%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+}
+@media (min-width: 1051px) {
+  .content-sidebar .archive, .content-sidebar .article {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .content-sidebar .sidebar {
+    width: 23.07692%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1051px) {
+  .content-sidebar .sidebar {
+    width: 23.72881%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.sidebar-content .archive, .sidebar-content .article {
+  width: 207.14286%;
+  float: right;
+  margin-right: 0;
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .sidebar-content .archive, .sidebar-content .article {
+    width: 74.35897%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1051px) {
+  .sidebar-content .archive, .sidebar-content .article {
+    width: 74.57627%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .sidebar-content .sidebar {
+    width: 23.07692%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+}
+@media (min-width: 1051px) {
+  .sidebar-content .sidebar {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  .content-only .archive .item {
+    width: 48.27586%;
+    float: left;
+  }
+  .content-only .archive .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .content-only .archive .item:nth-child(2n + 2) {
+    margin-left: 51.72414%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  .content-only .archive .item {
+    width: 48.71795%;
+    float: left;
+  }
+  .content-only .archive .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .content-only .archive .item:nth-child(2n + 2) {
+    margin-left: 51.28205%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 1051px) {
+  .content-only .archive .item {
+    width: 23.72881%;
+    float: left;
+  }
+  .content-only .archive .item:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  .content-only .archive .item:nth-child(4n + 2) {
+    margin-left: 25.42373%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .content-only .archive .item:nth-child(4n + 3) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none;
+  }
+  .content-only .archive .item:nth-child(4n + 4) {
+    margin-left: 76.27119%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+[class*='sidebar'] .archive .item {
+  width: 31.03448%;
+  float: left;
+}
+[class*='sidebar'] .archive .item:nth-child(3n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+[class*='sidebar'] .archive .item:nth-child(3n + 2) {
+  margin-left: 34.48276%;
+  margin-right: -100%;
+  clear: none;
+}
+[class*='sidebar'] .archive .item:nth-child(3n + 3) {
+  margin-left: 68.96552%;
+  margin-right: -100%;
+  clear: none;
+}
+@media (min-width: 401px) and (max-width: 800px) {
+  [class*='sidebar'] .archive .item {
+    width: 48.27586%;
+    float: left;
+  }
+  [class*='sidebar'] .archive .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  [class*='sidebar'] .archive .item:nth-child(2n + 2) {
+    margin-left: 51.72414%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1050px) {
+  [class*='sidebar'] .archive .item {
+    width: 48.27586%;
+    float: left;
+  }
+  [class*='sidebar'] .archive .item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  [class*='sidebar'] .archive .item:nth-child(2n + 2) {
+    margin-left: 51.72414%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 1051px) {
+  [class*='sidebar'] .archive .item {
+    width: 31.81818%;
+    float: left;
+  }
+  [class*='sidebar'] .archive .item:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  [class*='sidebar'] .archive .item:nth-child(3n + 2) {
+    margin-left: 34.09091%;
+    margin-right: -100%;
+    clear: none;
+  }
+  [class*='sidebar'] .archive .item:nth-child(3n + 3) {
+    margin-left: 68.18182%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+
+html {
+  font-size: 100%;
+  line-height: 0.375em;
+}
+
+html {
+  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+body {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -moz-background-size: 100% 1.5rem;
+  -o-background-size: 100% 1.5rem;
+  -webkit-background-size: 100% 1.5rem;
+  background-size: 100% 1.5rem;
+  background-position: left top;
+}
+
+.holder {
+  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
+}
+
+.item {
+  border-width: 1px;
+  border-width: 0.0625rem;
+  border-style: solid;
+  padding: 5px;
+  padding: 0.3125rem;
+  margin-top: 12px;
+  margin-top: 0.75rem;
+}
+
+.banner_header {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
+}
+
+.banner_sub {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
+}
+
+.item_header1 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
+}
+
+.item_header2 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
+}
+
+.item_header3 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
+}
+
+#banner ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+#banner ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#banner ul li:first-child {
+  padding-left: 0;
+}
+#banner ul li:last-child {
+  padding-right: 0;
+}
+#banner ul li.last {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
