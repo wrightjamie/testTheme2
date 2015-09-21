@@ -9,8 +9,8 @@
   top: rhythm(4);
 }
 .homeMain_title{
-  @include fs(large);
+  @include fs(heading-large);
 }
 .homeMain_text{
-  @include fs(large);
+  @include fs(text-large);
 }

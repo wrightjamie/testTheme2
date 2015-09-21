@@ -466,12 +466,12 @@ html {
 
 html {
   font-size: 112.5%;
-  line-height: 0.38889em;
+  line-height: 0.33333em;
 }
 
 html {
-  line-height: 28px;
-  line-height: 1.55556rem;
+  line-height: 24px;
+  line-height: 1.33333rem;
 }
 
 body {
@@ -481,47 +481,47 @@ body {
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.55556rem;
-  -o-background-size: 100% 1.55556rem;
-  -webkit-background-size: 100% 1.55556rem;
-  background-size: 100% 1.55556rem;
+  -moz-background-size: 100% 1.33333rem;
+  -o-background-size: 100% 1.33333rem;
+  -webkit-background-size: 100% 1.33333rem;
+  background-size: 100% 1.33333rem;
   background-position: left top;
 }
 
 .holder {
-  padding-bottom: 14px;
-  padding-bottom: 0.77778rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.66667rem;
 }
 
 .item {
   border-width: 1px;
   border-width: 0.05556rem;
   border-style: solid;
-  padding: 6px;
-  padding: 0.33333rem;
-  margin-top: 14px;
-  margin-top: 0.77778rem;
+  padding: 5px;
+  padding: 0.27778rem;
+  margin-top: 12px;
+  margin-top: 0.66667rem;
 }
 
 .item_header1 {
-  font-size: 24px;
-  font-size: 1.33333rem;
-  line-height: 56px;
-  line-height: 3.11111rem;
+  font-size: 30px;
+  font-size: 1.66667rem;
+  line-height: 48px;
+  line-height: 2.66667rem;
 }
 
 .item_header2 {
   font-size: 24px;
   font-size: 1.33333rem;
-  line-height: 56px;
-  line-height: 3.11111rem;
+  line-height: 48px;
+  line-height: 2.66667rem;
 }
 
 .item_header3 {
-  font-size: 24px;
-  font-size: 1.33333rem;
-  line-height: 56px;
-  line-height: 3.11111rem;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 48px;
+  line-height: 2.66667rem;
 }
 
 html {
@@ -555,18 +555,18 @@ html {
 }
 
 .banner_header {
-  font-size: 48px;
-  font-size: 2.66667rem;
-  line-height: 84px;
-  line-height: 4.66667rem;
+  font-size: 54px;
+  font-size: 3rem;
+  line-height: 72px;
+  line-height: 4rem;
   color: white;
 }
 
 .banner_sub {
-  font-size: 48px;
-  font-size: 2.66667rem;
-  line-height: 84px;
-  line-height: 4.66667rem;
+  font-size: 42px;
+  font-size: 2.33333rem;
+  line-height: 48px;
+  line-height: 2.66667rem;
   color: #FFD51F;
 }
 
@@ -578,21 +578,21 @@ html {
   position: absolute;
   left: 55%;
   width: 40%;
-  top: 1.55556rem;
+  top: 1.33333rem;
 }
 
 .homeMain_title {
-  font-size: 24px;
-  font-size: 1.33333rem;
-  line-height: 56px;
-  line-height: 3.11111rem;
+  font-size: 30px;
+  font-size: 1.66667rem;
+  line-height: 48px;
+  line-height: 2.66667rem;
 }
 
 .homeMain_text {
   font-size: 24px;
   font-size: 1.33333rem;
-  line-height: 56px;
-  line-height: 3.11111rem;
+  line-height: 36px;
+  line-height: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

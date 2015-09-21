@@ -47,6 +47,6 @@
     $lines: map-get($size-map, lines);
     @include adjust-font-size-to($fs, $lines);
   } @else {
-    @error "Invalid color name: `#{$colour}`.";
+    @error "Invalid font-size name: `#{$size}`.";
   }
 }

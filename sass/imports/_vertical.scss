@@ -15,11 +15,11 @@ body{
   @include margin-leader(2);
 }
 .item_header1{
-  @include fs(large);
+  @include fs(heading-large);
 }
 .item_header2{
-  @include fs(large);
+  @include fs(heading);
 }
 .item_header3{
-  @include fs(large);
+  @include fs(heading-small);
 }
