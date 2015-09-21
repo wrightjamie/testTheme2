@@ -1,0 +1,33 @@
+$colours: (
+        dark: #1B2A49,
+        light: #31639E,
+        text: #1B3257,
+        lighttext: #B7CBE2,
+        accent: #FFD51F,
+        bright: white
+);
+
+
+$variations: (
+        light: (
+                function: lighten,
+                parameters: 15%
+        ),
+        dark: (
+                function: darken,
+                parameters: 10%
+        ),
+        fade: (
+                function: rgba,
+                parameters: .7
+        ),
+        gray: (
+                function: grayscale
+        ),
+        shade: (
+                function: mix,
+                parameters: white 80%
+        )
+);
+
+

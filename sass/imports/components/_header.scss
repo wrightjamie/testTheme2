@@ -1,0 +1,11 @@
+.banner_header{
+  @include fs(huge);
+
+  color: cv(bright);
+}
+
+.banner_sub{
+  @include fs(huge);
+  color: cv(accent);
+}
+

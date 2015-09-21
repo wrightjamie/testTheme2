@@ -10,6 +10,7 @@
 //Variables
 @import 'variables/breakpoints';
 @import 'variables/colours';
+@import 'variables/fonts';
 @import 'variables/vertical';
 
 //Reset the CSS
@@ -18,6 +19,7 @@
 //Overall
 @import 'imports/layout';
 @import 'imports/vertical';
+@import 'imports/typography';
 
 //Specific elements
-@import 'imports/nav';
+@import 'imports/components';

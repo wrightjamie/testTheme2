@@ -10,11 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: themetest
 Tags:
 */
-.holder {
-  background-color: rgba(255, 0, 0, 0.5);
-}
-.holder:nth-of-type(2n) {
-  background-color: rgba(139, 0, 0, 0.5);
+img {
+  max-width: 100%;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -83,14 +80,17 @@ html {
 }
 
 /* Changing Susy default global settings */
-img {
-  max-width: 100%;
+.holder {
+  background-color: #1B2A49;
+}
+.holder:nth-of-type(2n) {
+  background-color: white;
 }
 
 /* Container set up */
 .container {
   max-width: 1200px;
-  max-width: 75rem;
+  max-width: 66.66667rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,7 +102,7 @@ img {
 @media (min-width: 401px) and (max-width: 800px) {
   .container {
     max-width: 1200px;
-    max-width: 75rem;
+    max-width: 66.66667rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -115,7 +115,7 @@ img {
 @media (min-width: 801px) and (max-width: 1050px) {
   .container {
     max-width: 1200px;
-    max-width: 75rem;
+    max-width: 66.66667rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -128,7 +128,7 @@ img {
 @media (min-width: 1051px) {
   .container {
     max-width: 1200px;
-    max-width: 75rem;
+    max-width: 66.66667rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -465,13 +465,13 @@ img {
 }
 
 html {
-  font-size: 100%;
-  line-height: 0.375em;
+  font-size: 112.5%;
+  line-height: 0.38889em;
 }
 
 html {
-  line-height: 24px;
-  line-height: 1.5rem;
+  line-height: 28px;
+  line-height: 1.55556rem;
 }
 
 body {
@@ -481,61 +481,51 @@ body {
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.5rem;
-  -o-background-size: 100% 1.5rem;
-  -webkit-background-size: 100% 1.5rem;
-  background-size: 100% 1.5rem;
+  -moz-background-size: 100% 1.55556rem;
+  -o-background-size: 100% 1.55556rem;
+  -webkit-background-size: 100% 1.55556rem;
+  background-size: 100% 1.55556rem;
   background-position: left top;
 }
 
 .holder {
-  padding-bottom: 12px;
-  padding-bottom: 0.75rem;
+  padding-bottom: 14px;
+  padding-bottom: 0.77778rem;
 }
 
 .item {
   border-width: 1px;
-  border-width: 0.0625rem;
+  border-width: 0.05556rem;
   border-style: solid;
-  padding: 5px;
-  padding: 0.3125rem;
-  margin-top: 12px;
-  margin-top: 0.75rem;
-}
-
-.banner_header {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 48px;
-  line-height: 3rem;
-}
-
-.banner_sub {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 48px;
-  line-height: 3rem;
+  padding: 6px;
+  padding: 0.33333rem;
+  margin-top: 14px;
+  margin-top: 0.77778rem;
 }
 
 .item_header1 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 48px;
-  line-height: 3rem;
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
 }
 
 .item_header2 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 48px;
-  line-height: 3rem;
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
 }
 
 .item_header3 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 48px;
-  line-height: 3rem;
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
+}
+
+html {
+  font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #banner ul {
@@ -562,6 +552,47 @@ body {
 }
 #banner ul li.last {
   padding-right: 0;
+}
+
+.banner_header {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  line-height: 84px;
+  line-height: 4.66667rem;
+  color: white;
+}
+
+.banner_sub {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  line-height: 84px;
+  line-height: 4.66667rem;
+  color: #FFD51F;
+}
+
+#homeMain {
+  position: relative;
+}
+
+.homeMain_content {
+  position: absolute;
+  left: 55%;
+  width: 40%;
+  top: 1.55556rem;
+}
+
+.homeMain_title {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
+}
+
+.homeMain_text {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 56px;
+  line-height: 3.11111rem;
 }
 
 /*# sourceMappingURL=style.css.map */
