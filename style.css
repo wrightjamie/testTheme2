@@ -90,7 +90,7 @@ html {
 /* Container set up */
 .container {
   max-width: 1200px;
-  max-width: 66.66667rem;
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,7 +102,7 @@ html {
 @media (min-width: 401px) and (max-width: 800px) {
   .container {
     max-width: 1200px;
-    max-width: 66.66667rem;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -115,7 +115,7 @@ html {
 @media (min-width: 801px) and (max-width: 1050px) {
   .container {
     max-width: 1200px;
-    max-width: 66.66667rem;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -128,7 +128,7 @@ html {
 @media (min-width: 1051px) {
   .container {
     max-width: 1200px;
-    max-width: 66.66667rem;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -465,13 +465,13 @@ html {
 }
 
 html {
-  font-size: 112.5%;
-  line-height: 0.33333em;
+  font-size: 100%;
+  line-height: 0.375em;
 }
 
 html {
   line-height: 24px;
-  line-height: 1.33333rem;
+  line-height: 1.5rem;
 }
 
 body {
@@ -481,47 +481,47 @@ body {
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.33333rem;
-  -o-background-size: 100% 1.33333rem;
-  -webkit-background-size: 100% 1.33333rem;
-  background-size: 100% 1.33333rem;
+  -moz-background-size: 100% 1.5rem;
+  -o-background-size: 100% 1.5rem;
+  -webkit-background-size: 100% 1.5rem;
+  background-size: 100% 1.5rem;
   background-position: left top;
 }
 
 .holder {
   padding-bottom: 12px;
-  padding-bottom: 0.66667rem;
+  padding-bottom: 0.75rem;
 }
 
 .item {
   border-width: 1px;
-  border-width: 0.05556rem;
+  border-width: 0.0625rem;
   border-style: solid;
   padding: 5px;
-  padding: 0.27778rem;
+  padding: 0.3125rem;
   margin-top: 12px;
-  margin-top: 0.66667rem;
+  margin-top: 0.75rem;
 }
 
 .item_header1 {
   font-size: 30px;
-  font-size: 1.66667rem;
+  font-size: 1.875rem;
   line-height: 48px;
-  line-height: 2.66667rem;
+  line-height: 3rem;
 }
 
 .item_header2 {
   font-size: 24px;
-  font-size: 1.33333rem;
+  font-size: 1.5rem;
   line-height: 48px;
-  line-height: 2.66667rem;
+  line-height: 3rem;
 }
 
 .item_header3 {
   font-size: 18px;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 48px;
-  line-height: 2.66667rem;
+  line-height: 3rem;
 }
 
 html {
@@ -556,17 +556,17 @@ html {
 
 .banner_header {
   font-size: 54px;
-  font-size: 3rem;
+  font-size: 3.375rem;
   line-height: 72px;
-  line-height: 4rem;
+  line-height: 4.5rem;
   color: white;
 }
 
 .banner_sub {
   font-size: 42px;
-  font-size: 2.33333rem;
+  font-size: 2.625rem;
   line-height: 48px;
-  line-height: 2.66667rem;
+  line-height: 3rem;
   color: #FFD51F;
 }
 
@@ -578,21 +578,21 @@ html {
   position: absolute;
   left: 55%;
   width: 40%;
-  top: 1.33333rem;
+  top: 1.5rem;
 }
 
 .homeMain_title {
   font-size: 30px;
-  font-size: 1.66667rem;
+  font-size: 1.875rem;
   line-height: 48px;
-  line-height: 2.66667rem;
+  line-height: 3rem;
 }
 
 .homeMain_text {
   font-size: 24px;
-  font-size: 1.33333rem;
+  font-size: 1.5rem;
   line-height: 36px;
-  line-height: 2rem;
+  line-height: 2.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

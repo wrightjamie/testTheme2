@@ -30,7 +30,11 @@
 ?>
 <div class="holder">
     <header id="banner" class="container">
-        <h1 class="banner_header">2459 Squadron</h1>
-        <p class="banner_sub">Poulton-le-Fylde</p>
+        <h1 class="banner_header">
+            <?php bloginfo('name'); ?>
+        </h1>
+        <p class="banner_sub">
+            <?php bloginfo('description'); ?>
+        </p>
     </header>
 </div>
