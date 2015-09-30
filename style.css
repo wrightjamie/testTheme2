@@ -466,12 +466,12 @@ html {
 
 html {
   font-size: 100%;
-  line-height: 0.375em;
+  line-height: 0.5em;
 }
 
 html {
-  line-height: 24px;
-  line-height: 1.5rem;
+  line-height: 32px;
+  line-height: 2rem;
 }
 
 body {
@@ -481,33 +481,28 @@ body {
   background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.5rem;
-  -o-background-size: 100% 1.5rem;
-  -webkit-background-size: 100% 1.5rem;
-  background-size: 100% 1.5rem;
+  -moz-background-size: 100% 2rem;
+  -o-background-size: 100% 2rem;
+  -webkit-background-size: 100% 2rem;
+  background-size: 100% 2rem;
   background-position: left top;
 }
 
 .holder {
-  padding-bottom: 12px;
-  padding-bottom: 0.75rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 .item {
-  border-width: 1px;
-  border-width: 0.0625rem;
-  border-style: solid;
-  padding: 5px;
-  padding: 0.3125rem;
-  margin-top: 12px;
-  margin-top: 0.75rem;
+  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .item_header1 {
   font-size: 30px;
   font-size: 1.875rem;
-  line-height: 48px;
-  line-height: 3rem;
+  line-height: 64px;
+  line-height: 4rem;
 }
 
 .item_header2 {
@@ -520,22 +515,22 @@ body {
 .item_header3 {
   font-size: 18px;
   font-size: 1.125rem;
-  line-height: 48px;
-  line-height: 3rem;
+  line-height: 32px;
+  line-height: 2rem;
 }
 
 html {
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#banner ul {
+#main_nav {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
 }
-#banner ul li {
+#main_nav li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -544,29 +539,29 @@ html {
   padding-left: 4px;
   padding-right: 4px;
 }
-#banner ul li:first-child {
+#main_nav li:first-child {
   padding-left: 0;
 }
-#banner ul li:last-child {
+#main_nav li:last-child {
   padding-right: 0;
 }
-#banner ul li.last {
+#main_nav li.last {
   padding-right: 0;
 }
 
 .banner_header {
   font-size: 54px;
   font-size: 3.375rem;
-  line-height: 72px;
-  line-height: 4.5rem;
+  line-height: 96px;
+  line-height: 6rem;
   color: white;
 }
 
 .banner_sub {
   font-size: 42px;
   font-size: 2.625rem;
-  line-height: 48px;
-  line-height: 3rem;
+  line-height: 64px;
+  line-height: 4rem;
   color: #FFD51F;
 }
 
@@ -578,21 +573,21 @@ html {
   position: absolute;
   left: 55%;
   width: 40%;
-  top: 1.5rem;
+  top: 2rem;
 }
 
 .homeMain_title {
   font-size: 30px;
   font-size: 1.875rem;
-  line-height: 48px;
-  line-height: 3rem;
+  line-height: 64px;
+  line-height: 4rem;
 }
 
 .homeMain_text {
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 36px;
-  line-height: 2.25rem;
+  line-height: 48px;
+  line-height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

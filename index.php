@@ -29,14 +29,54 @@
         </ul>
     </nav>
 </div>
-<div class="holder">
+<div class="holder" id="learnMore">
     <article class="LearnMore container">
-        <?php createContent(array('repeat'=>4, 'p length'=>1)); ?>
+        <section class="item">
+            <h2 class="LearnMore_title">Challenge Yourself</h2>
+            <img src="http://placehold.it/300x200" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
+        <section class="item">
+            <h2 class="LearnMore_title">Fly High</h2>
+            <img src="http://placehold.it/300x200" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
+        <section class="item">
+            <h2 class="LearnMore_title">Friends for Life</h2>
+            <img src="http://placehold.it/300x200" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
+        <section class="item">
+            <h2 class="LearnMore_title">Be Proud</h2>
+            <img src="http://placehold.it/300x200" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
     </article>
 </div>
 <div class="holder">
     <article id="Recent" class="Recent container">
-        <?php createContent(array('repeat'=>3, 'p length'=>1)); ?>
+        <section class="item">
+            <h2 class="LearnMore_title">Challenge Yourself</h2>
+            <img src="http://placehold.it/400x300" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
+        <section class="item">
+            <h2 class="LearnMore_title">Fly High</h2>
+            <img src="http://placehold.it/400x300" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
+        <section class="item">
+            <h2 class="LearnMore_title">Friends for Life</h2>
+            <img src="http://placehold.it/400x300" alt="">
+            <p>Do you want to Every Air Cadet has the opportunity to fly in a 2 seat aircraft at least once each year.</p>
+            <p class="learnMore_link"><a href="#">Learn More...</a></p>
+        </section>
     </article>
 </div>
 
