@@ -14,6 +14,7 @@ img {
   max-width: 100%;
 }
 
+/* Changing Susy default global settings */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -79,7 +80,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Changing Susy default global settings */
 .holder {
   background-color: #1B2A49;
 }
@@ -89,8 +89,8 @@ html {
 
 /* Container set up */
 .container {
-  max-width: 1200px;
-  max-width: 75rem;
+  max-width: 1400px;
+  max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -101,8 +101,8 @@ html {
 }
 @media (min-width: 401px) and (max-width: 800px) {
   .container {
-    max-width: 1200px;
-    max-width: 75rem;
+    max-width: 1400px;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -114,8 +114,8 @@ html {
 }
 @media (min-width: 801px) and (max-width: 1050px) {
   .container {
-    max-width: 1200px;
-    max-width: 75rem;
+    max-width: 1400px;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -127,8 +127,8 @@ html {
 }
 @media (min-width: 1051px) {
   .container {
-    max-width: 1200px;
-    max-width: 75rem;
+    max-width: 1400px;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -140,61 +140,61 @@ html {
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-  .LearnMore .item {
+  .Activities .item {
     width: 48.27586%;
     float: left;
   }
-  .LearnMore .item:nth-child(2n + 1) {
+  .Activities .item:nth-child(2n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-  .LearnMore .item:nth-child(2n + 2) {
+  .Activities .item:nth-child(2n + 2) {
     margin-left: 51.72414%;
     margin-right: -100%;
     clear: none;
   }
 }
 @media (min-width: 801px) and (max-width: 1050px) {
-  .LearnMore .item {
+  .Activities .item {
     width: 48.71795%;
     float: left;
   }
-  .LearnMore .item:nth-child(2n + 1) {
+  .Activities .item:nth-child(2n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-  .LearnMore .item:nth-child(2n + 2) {
+  .Activities .item:nth-child(2n + 2) {
     margin-left: 51.28205%;
     margin-right: -100%;
     clear: none;
   }
 }
 @media (min-width: 1051px) {
-  .LearnMore .item {
+  .Activities .item {
     width: 23.72881%;
     float: left;
   }
-  .LearnMore .item:nth-child(4n + 1) {
+  .Activities .item:nth-child(4n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-  .LearnMore .item:nth-child(4n + 2) {
+  .Activities .item:nth-child(4n + 2) {
     margin-left: 25.42373%;
     margin-right: -100%;
     clear: none;
   }
-  .LearnMore .item:nth-child(4n + 3) {
+  .Activities .item:nth-child(4n + 3) {
     margin-left: 50.84746%;
     margin-right: -100%;
     clear: none;
   }
-  .LearnMore .item:nth-child(4n + 4) {
+  .Activities .item:nth-child(4n + 4) {
     margin-left: 76.27119%;
     margin-right: -100%;
     clear: none;
@@ -202,61 +202,61 @@ html {
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-  .Recent .item {
+  .LearnMore .item {
     width: 31.03448%;
     float: left;
   }
-  .Recent .item:nth-child(3n + 1) {
+  .LearnMore .item:nth-child(3n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-  .Recent .item:nth-child(3n + 2) {
+  .LearnMore .item:nth-child(3n + 2) {
     margin-left: 34.48276%;
     margin-right: -100%;
     clear: none;
   }
-  .Recent .item:nth-child(3n + 3) {
+  .LearnMore .item:nth-child(3n + 3) {
     margin-left: 68.96552%;
     margin-right: -100%;
     clear: none;
   }
 }
 @media (min-width: 801px) and (max-width: 1050px) {
-  .Recent .item:nth-of-type(3n+1) {
+  .LearnMore .item:nth-of-type(3n+1) {
     width: 23.07692%;
     float: left;
     margin-right: 2.5641%;
   }
-  .Recent .item:nth-of-type(3n+2) {
+  .LearnMore .item:nth-of-type(3n+2) {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  .Recent .item:nth-of-type(3n+3) {
+  .LearnMore .item:nth-of-type(3n+3) {
     width: 23.07692%;
     float: right;
     margin-right: 0;
   }
 }
 @media (min-width: 1051px) {
-  .Recent .item {
+  .LearnMore .item {
     width: 32.20339%;
     float: left;
   }
-  .Recent .item:nth-child(3n + 1) {
+  .LearnMore .item:nth-child(3n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-  .Recent .item:nth-child(3n + 2) {
+  .LearnMore .item:nth-child(3n + 2) {
     margin-left: 33.89831%;
     margin-right: -100%;
     clear: none;
   }
-  .Recent .item:nth-child(3n + 3) {
+  .LearnMore .item:nth-child(3n + 3) {
     margin-left: 67.79661%;
     margin-right: -100%;
     clear: none;
