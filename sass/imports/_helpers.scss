@@ -7,3 +7,46 @@
     box-sizing: inherit;
   }
 }
+
+
+
+@function colour-variation($colour, $variation: false) {
+
+  @if map-has-key($colours, $colour) {
+    $colour: map-get($colours, $colour);
+  } @else {
+    @if type-of($colour) != colour {
+      @error "Invalid color name: `#{$colour}`.";
+    }
+  }
+
+  @if $variation {
+    @if not map-has-key($variations, $variation) {
+      @error "Invalid $variation: `#{$variation}`.";
+    } @else {
+      $this-variation: map-get($variations, $variation);
+      $args: join(map-get($this-variation, function), $colour);
+      @if map-get($this-variation, parameters) {
+        $args: join($args, map-get($this-variation, parameters));
+      }
+      @return call($args...);
+    }
+  }
+  @return $colour;
+}
+
+
+@function cv($colour, $variation:false) {
+  @return colour-variation($colour, $variation);
+}
+
+@mixin fs($size){
+  @if map-has-key($font-size, $size) {
+    $size-map: map-get($font-size, $size);
+    $fs: map-get($size-map, size);
+    $lines: map-get($size-map, lines);
+    @include adjust-font-size-to($fs, $lines);
+  } @else {
+    @error "Invalid font-size name: `#{$size}`.";
+  }
+}

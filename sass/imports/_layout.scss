@@ -16,8 +16,12 @@ $susy: (
         ),*/
 );
 
-img{
-  max-width: 100%;
+
+.holder {
+  background-color: cv(dark);
+  &:nth-of-type(2n) {
+    background-color: cv(bright);
+  }
 }
 
 /* Container set up */

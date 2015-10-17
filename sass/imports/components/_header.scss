@@ -1,0 +1,11 @@
+.banner_header{
+  @include fs(title);
+
+  color: cv(bright);
+}
+
+.banner_sub{
+  @include fs(sub-title);
+  color: cv(accent);
+}
+

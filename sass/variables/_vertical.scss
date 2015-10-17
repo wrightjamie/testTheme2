@@ -1,3 +1,15 @@
 $base-font-size: 16px;
-$base-line-height: 6px;
+$base-line-height: 8px;
 $rhythm-unit: "rem";
+
+
+$font-size: (
+        text-small: (size: 12px, lines:4),
+        text: (size: 16px, lines:4),
+        text-large: (size: 24px, lines: 6),
+        heading-small: (size: 18px, lines:4),
+        heading: (size: 24px, lines:6),
+        heading-large: (size: 30px, lines:8),
+        title: (size: 54px, lines: 12),
+        sub-title: (size: 42px, lines: 8)
+);
