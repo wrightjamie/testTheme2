@@ -23,18 +23,37 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<?php
-/*
- * Time for the website content
- */
-?>
 <div class="holder">
     <header id="banner" class="container">
+        <?php //TODO make a link to home ?>
         <h1 class="banner_header">
-            <?php bloginfo('name'); ?>
+            <a href="<?php bloginfo('url'); ?>">
+                <?php bloginfo('name'); ?>
+            </a>
         </h1>
         <p class="banner_sub">
             <?php bloginfo('description'); ?>
         </p>
     </header>
 </div>
+
+
+<?php //TODO move menu to footer and add js to move it up ?>
+<?php if ( has_nav_menu( 'main-menu' ) ) : ?>
+    <div class="holder">
+        <?php $args = array(
+            'theme_location' => 'main-menu',
+            'container' => 'nav',
+            'depth' => 1,
+            'container_class' => 'container'
+        );
+        //TODO Multi level main menu
+        wp_nav_menu( $args ); ?>
+    </div>
+<?php endif; ?>
+
+<?php if(get_theme_mod('show-breadcrumbs',true) && function_exists('yoast_breadcrumb') && !is_front_page()): ?>
+    <div class="holder">
+        <?php yoast_breadcrumb('<div class="container">','</div>'); ?>
+    </div>
+<?php endif; ?>

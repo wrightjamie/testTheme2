@@ -83,7 +83,7 @@ html {
 .holder {
   background-color: #1B2A49;
 }
-.holder:nth-of-type(2n) {
+.holder:nth-child(even) {
   background-color: white;
 }
 
@@ -137,6 +137,11 @@ html {
     display: block;
     clear: both;
   }
+}
+
+.holder .container {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 @media (min-width: 401px) and (max-width: 800px) {

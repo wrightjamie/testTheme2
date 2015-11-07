@@ -10,6 +10,9 @@ $susy: (
         columns: 3,
   /* Tells Susy that the container has a max-width */
         container: 1400px,
+        /* Use floats */
+        output: float,
+
   /* Tells Susy to use border-box */
         global-box-sizing: border-box,
   /*      debug: (
