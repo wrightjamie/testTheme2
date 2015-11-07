@@ -1,25 +1,10 @@
 @include jw_border_box();
 
-/* Changing Susy default global settings */
-$susy: (
-  /* Tells Susy to use 8 columns */
-        columns: 3,
-  /* Tells Susy that the container has a max-width */
-        container: 1200px,
-  /* Tells Susy to use border-box */
-        global-box-sizing: border-box,
-  /*      debug: (
-                image: show,
-                color: rgba(#66f, .25),
-                //output: overlay,
-                //toggle: bottom right,
-        ),*/
-);
 
 
 .holder {
   background-color: cv(dark);
-  &:nth-of-type(2n) {
+  &:nth-child(even) {
     background-color: cv(bright);
   }
 }
@@ -31,8 +16,12 @@ $susy: (
   @include at('m') {@include container(8);}
   @include at('l') {@include container(12);}
 }
+.holder .container{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 
-.LearnMore .item{ //4 items
+.Activities .item{ //4 items
 
   @include at('s') {
     @include gallery(3 of 6);
@@ -47,7 +36,7 @@ $susy: (
   }
 }
 
-.Recent .item{ //3 items
+.LearnMore .item{ //3 items
   @include at('s') {
     @include gallery(2 of 6);
   }

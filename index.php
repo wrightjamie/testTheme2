@@ -1,4 +1,4 @@
-<?php include"default-data.php"; ?>
+
 
 <?php get_header(); ?>
 
@@ -80,46 +80,5 @@
     </article>
 </div>
 
-<div class="holder">
-    <main class="container content-only">
-        <article class="archive">
-            <?php createContent(array('repeat'=>12, 'p length'=>1)); ?>
-        </article>
-    </main>
-</div>
-<div class="holder">
-    <main class="container content-sidebar">
-        <article class="archive">
-            <?php createContent(array('repeat'=>12, 'p length'=>1)); ?>
-        </article>
-        <aside class="sidebar">
-            <ul>
-                <?php createContent(array('repeat'=>4, 'element'=>'li','img'=>FALSE, 'p length'=>array(1,2))); ?>
-            </ul>
-        </aside>
-    </main>
-</div>
-<div class="holder">
-    <main class="container sidebar-content">
-        <article class="archive">
-            <?php createContent(array('repeat'=>12, 'p length'=>1)); ?>
-        </article>
-        <aside class="sidebar">
-            <ul>
-                <?php createContent(array('repeat'=>4, 'element'=>'li','img'=>FALSE, 'p length'=>array(1,2))); ?>
-            </ul>
-        </aside>
-    </main>
-</div>
-<div class="holder">
-    <main class="container sidebar-content">
-        <?php createContent(array('element'=>'article', 'p number'=>array(5,10), 'class'=>'article item')); ?>
-        <aside class="sidebar">
-            <ul>
-                <?php createContent(array('repeat'=>4, 'element'=>'li','img'=>FALSE, 'p length'=>array(1,2))); ?>
-            </ul>
-        </aside>
-    </main>
-</div>
 
 <?php get_footer(); ?>

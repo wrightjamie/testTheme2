@@ -20,6 +20,13 @@
         </nav>
     </footer>
 </div>
+<div class="holder">
+    <div class="container">
+        <span class="copyright">
+            <?php echo get_theme_mod('copyright', 'Copyright '.date('Y')); ?>
+        </span>
+    </div>
+    </div>
 <?php
 /*
  * And now tidy everything up...

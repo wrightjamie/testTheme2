@@ -4,3 +4,21 @@ $slicer-breakpoint-names:           'xs'               's'                   'm'
 // Slice numbers:                    1                  2                     4                   5
 
 
+/* Changing Susy default global settings */
+$susy: (
+  /* Tells Susy to use 8 columns */
+        columns: 3,
+  /* Tells Susy that the container has a max-width */
+        container: 1400px,
+        /* Use floats */
+        output: float,
+
+  /* Tells Susy to use border-box */
+        global-box-sizing: border-box,
+  /*      debug: (
+                image: show,
+                color: rgba(#66f, .25),
+                //output: overlay,
+                //toggle: bottom right,
+        ),*/
+);
